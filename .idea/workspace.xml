@@ -1,30 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7979ec98-ffe1-4f4d-acde-1b0adde14fdc" name="Changes" comment="" />
+    <list default="true" id="7979ec98-ffe1-4f4d-acde-1b0adde14fdc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/api_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/book_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/book_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/degree_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/degree_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/group_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/group_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/promotion_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/promotion_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/school_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/school_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/score_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/score_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/semester_controler.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/semester_controler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/studentgroup_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/studentgroup_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/studytime_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/studytime_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/subject_controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/subject_controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/degree.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/degree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/promotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/promotion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/school.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/school.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/score.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/score.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/semester.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/semester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/student_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/student_group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/study_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/study_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/subject.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/subject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/degree.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/degree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/group_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/group_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/promotion_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/promotion_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/school_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/school_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/score_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/score_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/semester_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/semester_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/student_group_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/student_group_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/study_time_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/study_time_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/subject_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/subject_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/user_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/user_schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/security/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/auth_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/auth_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/book_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/book_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/degree_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/degree_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/group_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/group_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/promotion_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/promotion_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/school_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/school_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/score_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/score_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/semester_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/semester_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/studentgroup_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/studentgroup_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/studytime_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/studytime_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/subject_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/services/subject_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/response.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="FastAPI test_main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="33eOmw2PMpPIyFr3mjRIRSZ3wVW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;FastAPI.api_project.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.stickyLines&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="api_project" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <module name="api_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -40,8 +145,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759674234303</updated>
-      <workItem from="1759674235267" duration="1000" />
+      <workItem from="1759674235267" duration="324000" />
+      <workItem from="1759721448391" duration="3469000" />
+      <workItem from="1759921909358" duration="14446000" />
+      <workItem from="1760096498051" duration="952000" />
+      <workItem from="1760408930936" duration="8193000" />
+      <workItem from="1760419336167" duration="600000" />
+      <workItem from="1760426082012" duration="7525000" />
+      <workItem from="1760439937324" duration="849000" />
+      <workItem from="1760498288210" duration="720000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/api_project$api_project.coverage" NAME="api_project Coverage Results" MODIFIED="1760439954477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
