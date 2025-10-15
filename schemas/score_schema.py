@@ -16,6 +16,5 @@ class ScoreRes(BaseModel):
     total: float
 
 
-class Config:
-        orm_mode = True,
-        from_attributes = True
+    class Config:
+            from_attributes = True

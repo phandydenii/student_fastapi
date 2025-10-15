@@ -10,5 +10,4 @@ class SchoolRes(BaseModel):
     name_km: str
 
     class Config:
-        orm_mode = True,
         from_attributes = True

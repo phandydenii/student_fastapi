@@ -2,15 +2,14 @@ from fastapi.responses import JSONResponse
 from typing import Any, Optional
 from pydantic import BaseModel
 from typing import Generic, TypeVar, Optional
-from pydantic.generics import GenericModel
 
 T = TypeVar("T")  # Type of the data
 
-class Status(BaseModel):
+class Status(BaseModel,Generic[T]):
     code: str
     message: str
 
-class ResponseSchema(GenericModel, Generic[T]):
+class ResponseSchema(BaseModel, Generic[T]):
     data: Optional[T]
     status: Status
 

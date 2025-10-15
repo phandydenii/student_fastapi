@@ -17,7 +17,6 @@ class UserResponse(BaseModel):
     hashed_password: Optional[str] = None
     disabled: Optional[bool] = None
     class Config:
-        orm_mode = True
         from_attributes = True
 
 

@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import Session, sessionmaker
+# pip install fastapi uvicorn sqlalchemy psycopg2-binary pydantic
 
 DB_HOST = "localhost"
 DB_NAME = "postgres"

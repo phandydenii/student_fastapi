@@ -8,5 +8,4 @@ class GroupRes(BaseModel):
     study_time: int
 
     class Config:
-        orm_mode = True,
         from_attributes = True
